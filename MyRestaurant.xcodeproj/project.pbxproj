@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845F1A8C26FE129400439F4A /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F1A8B26FE129400439F4A /* OrderView.swift */; };
+		845F1A8F2701F54300439F4A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F1A8E2701F54300439F4A /* MainView.swift */; };
+		8489B2D1273404FB006E4E55 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489B2D0273404FB006E4E55 /* CheckoutView.swift */; };
 		84F3315726F8B44800BB02AC /* MyRestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3315626F8B44800BB02AC /* MyRestaurantApp.swift */; };
 		84F3315926F8B44800BB02AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3315826F8B44800BB02AC /* ContentView.swift */; };
 		84F3315B26F8B44900BB02AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F3315A26F8B44900BB02AC /* Assets.xcassets */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845F1A8B26FE129400439F4A /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		845F1A8E2701F54300439F4A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8489B2D0273404FB006E4E55 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		84F3315326F8B44800BB02AC /* MyRestaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRestaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F3315626F8B44800BB02AC /* MyRestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRestaurantApp.swift; sourceTree = "<group>"; };
 		84F3315826F8B44800BB02AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,13 +77,16 @@
 				84F3316C26F8B99D00BB02AC /* Order.swift */,
 				84F3316926F8B97100BB02AC /* Helper.swift */,
 				84F3315626F8B44800BB02AC /* MyRestaurantApp.swift */,
+				84F3315A26F8B44900BB02AC /* Assets.xcassets */,
 				84F3315826F8B44800BB02AC /* ContentView.swift */,
 				84F3316626F8B52A00BB02AC /* MyNavigationView.swift */,
-				84F3315A26F8B44900BB02AC /* Assets.xcassets */,
 				84F3315F26F8B44900BB02AC /* Info.plist */,
 				84F3315C26F8B44900BB02AC /* Preview Content */,
 				84F3317526F8C82600BB02AC /* ItemRow.swift */,
+				8489B2D0273404FB006E4E55 /* CheckoutView.swift */,
 				84F96FA026F9C1A000ABCD9E /* ItemDetail.swift */,
+				845F1A8E2701F54300439F4A /* MainView.swift */,
+				845F1A8B26FE129400439F4A /* OrderView.swift */,
 			);
 			path = MyRestaurant;
 			sourceTree = "<group>";
@@ -161,11 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F3317026F8B9A900BB02AC /* Menu.swift in Sources */,
+				8489B2D1273404FB006E4E55 /* CheckoutView.swift in Sources */,
 				84F3315926F8B44800BB02AC /* ContentView.swift in Sources */,
 				84F3315726F8B44800BB02AC /* MyRestaurantApp.swift in Sources */,
+				845F1A8F2701F54300439F4A /* MainView.swift in Sources */,
 				84F3317626F8C82600BB02AC /* ItemRow.swift in Sources */,
 				84F3316D26F8B99E00BB02AC /* Order.swift in Sources */,
 				84F96FA126F9C1A000ABCD9E /* ItemDetail.swift in Sources */,
+				845F1A8C26FE129400439F4A /* OrderView.swift in Sources */,
 				84F3316726F8B52A00BB02AC /* MyNavigationView.swift in Sources */,
 				84F3316A26F8B97100BB02AC /* Helper.swift in Sources */,
 			);
