@@ -33,7 +33,7 @@ struct CheckoutView: View {
     }
     
     var body: some View{
-        Form{
+       Form{
             Section{
                 Picker("How do you want to pay?",selection:
                         $paymentType){
@@ -61,15 +61,15 @@ struct CheckoutView: View {
                 .pickerStyle(SegmentedPickerStyle())
             }
             
-            Section(header: Text("Total: $100")){
+            Section(header: Text("Total: \(totalPrice)")){
                 Button("Confirm order"){
-                    
+                    showingPaymentAlert.toggle()
                 }
             }
-            
-            /*.alert(isPresented: $showingPaymentAlert){
-                
-            }*/
+            .alert(isPresented: $showingPaymentAlert){
+                Alert(title: Text("Order confirmed"),message: Text(
+                        "Your total was \(totalPrice)"),dismissButton: .default(Text("Ok")))
+            }
         }
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
